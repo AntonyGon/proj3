@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="main-body">
+      <div class="game-head">
+        <div class="game-head-name" title="1212">Card Game</div>
+        <input type="text" class="game-head-input" placeholder="Кол-во строк и столбцов"/>
+        <button class="game-head-button" onclick="startFunc()">Start</button>
+      </div>
+      <div class="game-body">
+        <div class="game-body-timer">Timer: 60 sec</div>
+        <div class="game-body-cards"></div>
+        <div class="game-body-result">Result:</div>
+      </div>
+    </div>
+    <script src="https://unpkg.com/imask"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
